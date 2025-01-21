@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(44, 107, 86);
+    /* min-height: 100vh; */
+    margin: 3% 0;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    background-color: aquamarine;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.inputs{
+    margin:10px 20px;
+    padding: 10px 20px;
+}
+.inputs input{
+    border-radius:5px;
+    padding-left: 4px;
+    margin-left: 10px;
+}
+.ins{
+    display: flex;
+    justify-content: center;
+}
+li {
+    list-style: none;
+    padding: 0;
+}
+ul {
+    padding: 0;
+}
+.weatherBox {
+    margin: 20px;
+    padding: 15px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 200px;
+    width: auto;
+    border-radius: 10%;
+}
+.star {
+    display: none;
+}

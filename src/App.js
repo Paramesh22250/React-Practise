@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Climate from './components/Climate';
+import Weather from './components/Weather';
+// import Form from './components/Form';
+// import Todo from './components/Todo';
+// import { UsingUseEffect } from './components/UsingUseEffect';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Form/> */}
+      {/* <UsingUseEffect/> */}
+      {/* <Todo/> */}
+      {/* <Climate/> */}
+      <Weather/>
     </div>
   );
 }
